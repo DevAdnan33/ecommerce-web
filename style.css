@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+    margin: 0;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 0;
+}
+
+/* Header */
+#header {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    background-color: #E3e6f3;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar-nav>li {
+    padding: 0 13px;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    font-size: 16px;
+    font-weight: 600;
+    color: #088178;
+}
+
+.navbar-light .navbar-nav .nav-link.active::after,
+.navbar-light .navbar-nav .nav-link:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+/* Hero */
+#hero {
+    background-image: url("img/hero4.png");
+    ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 90% right 0;
+
+}
+
+.heroHeading {
+    color: #088178;
+}
+
+.heroButton {
+    background-image: url("img/button.png");
+    padding: 14px 80px 14px 64px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    color: #088178;
+}
+
+.cont1 {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+}
+
+.cont1:hover {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 54px rgba(68, 68, 68, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+.fbtn {
+    margin-top: 10px;
+    background-color: rgb(255, 219, 225);
+    color: #088178;
+}
+
+.obtn {
+    margin-top: 10px;
+    background-color: rgb(219, 255, 253);
+    color: #088178;
+}
+
+.sbtn {
+    margin-top: 10px;
+    background-color: rgb(221, 219, 255);
+    color: #088178;
+}
+
+.pbtn {
+    margin-top: 10px;
+    background-color: rgb(249, 219, 255);
+    color: #088178;
+}
+
+.hbtn {
+    margin-top: 10px;
+    background-color: rgb(254, 255, 219);
+    color: #088178;
+}
+
+.subtn {
+    margin-top: 10px;
+    background-color: rgb(219, 255, 234);
+    color: #088178;
+}
+
+/* Product Section */
+.productContainer {
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.productContainer:hover {
+    box-shadow: 10px 10px 54px rgba(68, 68, 68, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+.productImage {
+    border-radius: 20px;
+}
+
+.productData {
+    margin-top: 10px;
+}
+
+.strColor {
+    color: yellow;
+}
+
+.productRate {
+    color: #088178;
+}
+
+.iconRate {
+    margin-top: 10px;
+}
+
+.fa-bag-shopping {
+    color: #088178;
+    line-height: 0%;
+    margin-top: 10px;
+}
+
+/*Banner */
+#banner {
+    background-image: url("img/banner/b2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px 0;
+}
+
+.ctaOff {
+    color: rgb(255, 75, 75);
+}
+
+.ctaH4,
+.ctaH2 {
+    color: white;
+}
+
+.ctaBtn {
+    font-family: 'League Spartan', sans-serif;
+    background-color: #088178;
+    color: aliceblue;
+
+}
+
+.ctaContainer {
+    padding: 60px 0;
+}
+
+/* Banners Section */
+
+.cta1 {
+    background-image: url("img/banner/b17.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 40px;
+}
+
+.cta1h4,
+.cta1h2,
+.cta1para {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.cta2 {
+    background-image: url("img/banner/b10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 40px;
+}
+
+.cta2h4,
+.cta2h2,
+.cta2para {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.cta3 {
+    background-image: url("img/banner/b7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 20px;
+}
+
+
+.cta3h2,
+.cta3para {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.cta4 {
+    background-image: url("img/banner/b4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 20px;
+
+}
+
+
+.cta4h2,
+.cta4para {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.cta5 {
+    background-image: url("img/banner/b18.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 20px;
+}
+
+
+.cta5h2,
+.cta5para {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.ctaheading {
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.ctaspara {
+    color: rgb(255, 134, 69);
+}
+
+/* News Letter */
+#newsletter {
+    background-color: #041e42;
+    background-image: url("img/banner/b14.jpg");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+}
+
+#newsletter {
+    padding: 40px 0;
+}
+
+#newsletter h4 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#newsletter p {
+    color: #759989;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#newsletter .form .form-control {
+    display: inline;
+    width: auto;
+    border-radius: 0;
+}
+
+#newsletter .ctaBtn {
+    border-radius: 0;
+}
+
+.spOffer {
+    color: yellow;
+}
+
+/* footer */
+.footerBoldTitle {
+    font-weight: 600;
+}
+
+.aboutText {
+    text-decoration: none;
+}
+
+.appsBorder {
+    border: 1px solid black;
+
+}
